@@ -35,12 +35,4 @@ class SendWebhookEvent extends Event
         $this->response  = $response;
         $this->contact   = $contact;
     }
-
-    /**
-     * @return Response
-     */
-    public function getResponse()
-    {
-        return $this->response;
-    }
 }
